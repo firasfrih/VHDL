@@ -1,0 +1,41 @@
+|AddSub
+X[0] => Add1.IN4
+X[0] => LessThan1.IN12
+X[0] => Add6.IN8
+X[1] => Add1.IN3
+X[1] => LessThan1.IN11
+X[1] => Add6.IN7
+X[2] => Add1.IN2
+X[2] => LessThan1.IN10
+X[2] => Add6.IN6
+X[3] => Add1.IN1
+X[3] => LessThan1.IN9
+X[3] => Add6.IN5
+Y[0] => Add1.IN8
+Y[0] => Add3.IN7
+Y[0] => Add5.IN7
+Y[1] => Add1.IN7
+Y[1] => Add3.IN6
+Y[1] => Add5.IN6
+Y[2] => Add1.IN6
+Y[2] => Add3.IN5
+Y[2] => Add5.IN5
+Y[3] => Add1.IN5
+Y[3] => Add3.IN4
+Y[3] => Add5.IN4
+Carry_in => Add2.IN8
+Carry_in => Add5.IN8
+Carry_in => Add0.IN10
+Carry_in => Add3.IN8
+S[0] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= S.DB_MAX_OUTPUT_PORT_TYPE
+Overflow <= Overflow.DB_MAX_OUTPUT_PORT_TYPE
+Mode => Overflow.OUTPUTSELECT
+Mode => S.OUTPUTSELECT
+Mode => S.OUTPUTSELECT
+Mode => S.OUTPUTSELECT
+Mode => S.OUTPUTSELECT
+
+

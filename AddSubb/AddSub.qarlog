@@ -1,0 +1,16 @@
+Quartus Prime Archive log --	C:/Users/firas/Desktop/Programmierbare Logik/4.1.4/AddSub.qarlog
+
+Archive:	C:/Users/firas/Desktop/Programmierbare Logik/4.1.4/AddSub.qar
+Date:		Wed Nov 16 08:33:33 2022
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/firas/Desktop/Programmierbare Logik/4.1.4/AddSub.qpf
+C:/Users/firas/Desktop/Programmierbare Logik/4.1.4/AddSub.qsf
+C:/Users/firas/Desktop/Programmierbare Logik/4.1.4/AddSub.vhd
+C:/Users/firas/Desktop/Programmierbare Logik/4.1.4/AddSub_tb.vhd
+c:/intelfpga_lite/20.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 5 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

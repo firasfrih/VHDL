@@ -1,0 +1,123 @@
+|Reg_N
+LD => D0_AND[7].IN0
+LD => D0_AND[6].IN0
+LD => D0_AND[5].IN0
+LD => D0_AND[4].IN0
+LD => D0_AND[3].IN0
+LD => D0_AND[2].IN0
+LD => D0_AND[1].IN0
+LD => D0_AND[0].IN0
+LD => LD_AND[7].IN1
+LD => LD_AND[6].IN1
+LD => LD_AND[5].IN1
+LD => LD_AND[4].IN1
+LD => LD_AND[3].IN1
+LD => LD_AND[2].IN1
+LD => LD_AND[1].IN1
+LD => LD_AND[0].IN1
+D0[0] => D0_AND[0].IN1
+D0[1] => D0_AND[1].IN1
+D0[2] => D0_AND[2].IN1
+D0[3] => D0_AND[3].IN1
+D0[4] => D0_AND[4].IN1
+D0[5] => D0_AND[5].IN1
+D0[6] => D0_AND[6].IN1
+D0[7] => D0_AND[7].IN1
+CLK => DFlipFlop:G1:0:R1.CLK
+CLK => DFlipFlop:G1:1:R1.CLK
+CLK => DFlipFlop:G1:2:R1.CLK
+CLK => DFlipFlop:G1:3:R1.CLK
+CLK => DFlipFlop:G1:4:R1.CLK
+CLK => DFlipFlop:G1:5:R1.CLK
+CLK => DFlipFlop:G1:6:R1.CLK
+CLK => DFlipFlop:G1:7:R1.CLK
+CLR => DFlipFlop:G1:0:R1.CLR
+CLR => DFlipFlop:G1:1:R1.CLR
+CLR => DFlipFlop:G1:2:R1.CLR
+CLR => DFlipFlop:G1:3:R1.CLR
+CLR => DFlipFlop:G1:4:R1.CLR
+CLR => DFlipFlop:G1:5:R1.CLR
+CLR => DFlipFlop:G1:6:R1.CLR
+CLR => DFlipFlop:G1:7:R1.CLR
+Q0[0] <= DFlipFlop:G1:0:R1.Q
+Q0[1] <= DFlipFlop:G1:1:R1.Q
+Q0[2] <= DFlipFlop:G1:2:R1.Q
+Q0[3] <= DFlipFlop:G1:3:R1.Q
+Q0[4] <= DFlipFlop:G1:4:R1.Q
+Q0[5] <= DFlipFlop:G1:5:R1.Q
+Q0[6] <= DFlipFlop:G1:6:R1.Q
+Q0[7] <= DFlipFlop:G1:7:R1.Q
+
+
+|Reg_N|DFlipFlop:\G1:0:R1
+CLK => Qm.CLK
+CLK => Q~reg0.CLK
+CLR => Q~reg0.ACLR
+CLR => Qm.ACLR
+D => Qm.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Reg_N|DFlipFlop:\G1:1:R1
+CLK => Qm.CLK
+CLK => Q~reg0.CLK
+CLR => Q~reg0.ACLR
+CLR => Qm.ACLR
+D => Qm.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Reg_N|DFlipFlop:\G1:2:R1
+CLK => Qm.CLK
+CLK => Q~reg0.CLK
+CLR => Q~reg0.ACLR
+CLR => Qm.ACLR
+D => Qm.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Reg_N|DFlipFlop:\G1:3:R1
+CLK => Qm.CLK
+CLK => Q~reg0.CLK
+CLR => Q~reg0.ACLR
+CLR => Qm.ACLR
+D => Qm.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Reg_N|DFlipFlop:\G1:4:R1
+CLK => Qm.CLK
+CLK => Q~reg0.CLK
+CLR => Q~reg0.ACLR
+CLR => Qm.ACLR
+D => Qm.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Reg_N|DFlipFlop:\G1:5:R1
+CLK => Qm.CLK
+CLK => Q~reg0.CLK
+CLR => Q~reg0.ACLR
+CLR => Qm.ACLR
+D => Qm.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Reg_N|DFlipFlop:\G1:6:R1
+CLK => Qm.CLK
+CLK => Q~reg0.CLK
+CLR => Q~reg0.ACLR
+CLR => Qm.ACLR
+D => Qm.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Reg_N|DFlipFlop:\G1:7:R1
+CLK => Qm.CLK
+CLK => Q~reg0.CLK
+CLR => Q~reg0.ACLR
+CLR => Qm.ACLR
+D => Qm.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
